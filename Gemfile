@@ -41,7 +41,7 @@ group :development, :test do
   gem "rubocop-rails" # 追加
   gem "rubocop-rspec" # 追加
 
-  gem "devise_token_auth" # add
+  # gem "devise_token_auth" # add
   gem "factory_bot_rails" # 追加
   gem "faker" # 追加
   gem "rspec-rails" # 追加
