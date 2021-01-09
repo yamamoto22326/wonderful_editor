@@ -44,6 +44,7 @@ group :development, :test do
   gem "rspec-rails" #追加
   gem "factory_bot_rails" #追加
   gem "faker" #追加
+  gem 'devise_token_auth' #add
 end
 
 group :development do
