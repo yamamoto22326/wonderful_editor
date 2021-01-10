@@ -41,9 +41,10 @@ group :development, :test do
   gem "rubocop-rails" # 追加
   gem "rubocop-rspec" # 追加
 
-  gem "rspec-rails" #追加
-  gem "factory_bot_rails" #追加
-  gem "faker" #追加
+  # gem "devise_token_auth" # add add
+  gem "factory_bot_rails" # 追加
+  gem "faker" # 追加
+  gem "rspec-rails" # 追加
 end
 
 group :development do
@@ -54,6 +55,8 @@ group :development do
   gem "annotate" # 追加
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+
+  gem "rails-erd" # 追加
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
